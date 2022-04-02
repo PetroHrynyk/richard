@@ -98,3 +98,19 @@ line-height: 1.88;
 
 color: var(--secondary-title-color);
 }
+
+.organizer-sub-title {
+  font-weight: 700;
+font-size: 18px;
+line-height: 1.33;
+text-align: center;
+color: var(--primary-dark-color);
+}
+
+.organizer-text {
+  font-size: 16px;
+line-height: 1.88;
+text-align: center;
+
+color: var(--secondary-title-color);
+}
