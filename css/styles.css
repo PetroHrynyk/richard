@@ -11,3 +11,16 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+body {
+  font-family: 'Gothic A1',
+  sans-serif;
+  background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%),
+  #CF0063;
+}
+.nav-link {
+  font-size: 15px;
+  line-height: 1.33;
+  color: #FFFFFF;
+}
+
