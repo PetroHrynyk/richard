@@ -1,6 +1,7 @@
 :root {
   --primary-light:#FFFFFF;
   --background-btn:#FC0A7E;
+  --title-color:#A8A8A8;
 }
 
 .visually-hidden {
@@ -48,7 +49,7 @@ body {
   border: none;
   cursor: pointer;
   padding: 20px 40px;
-  width: 170px;
+  min-width: 170px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -58,3 +59,21 @@ body {
   0px 2px 2px rgba(0, 0, 0, 0.12);
   background: var(--primary-light);
 }
+
+.aenean-title{
+  font-size: 12px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;  
+  color: var(--title-color);
+}
+
+.aenean-text{
+  font-size: 38px;
+  line-height: 1.26;   
+  text-align: center;
+  color: var(--primary-light);
+}
+
+
